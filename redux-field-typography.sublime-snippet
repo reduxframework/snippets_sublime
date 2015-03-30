@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'          => '$1',
+    'type'        => 'typography', 
+    'title'       => __('$2', 'redux-framework-demo'),
+    'google'      => true, 
+    'font-backup' => true,
+    'units'       =>'px',
+    'subtitle'    => __('', 'redux-framework-demo'),
+    'default'     => array(
+        'color'       => '$3', 
+        'font-style'  => '700', 
+        'font-family' => 'Montserrat', 
+        'google'      => true,
+        'font-size'   => '$4'
+    )
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-typography</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

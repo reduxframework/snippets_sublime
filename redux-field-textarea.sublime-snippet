@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'=>'$1',
+    'type' => 'textarea',
+    'title' => __('$2', 'redux-framework-demo'), 
+    'subtitle' => __('', 'redux-framework-demo'),
+    'desc' => __('', 'redux-framework-demo'),
+    'validate' => 'html_custom',
+    'allowed_html' => array(
+        'a' => array(
+            'href' => array(),
+            'title' => array()
+        ),
+        'br' => array(),
+        'em' => array(),
+        'strong' => array()
+    )
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-textarea</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

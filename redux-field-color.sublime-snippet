@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'       => '$1',
+    'type'     => 'color',
+    'title'    => __('$2', 'redux-framework-demo'), 
+    'default'  => '$3',
+    'validate' => 'color',
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-color</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

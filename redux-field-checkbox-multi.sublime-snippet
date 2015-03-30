@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'       => '$1',
+    'type'     => 'checkbox',
+    'title'    => __('$2', 'redux-framework-demo'), 
+    'subtitle' => __('', 'redux-framework-demo'),
+    'desc'     => __('', 'redux-framework-demo'), 
+    //Must provide key => value pairs for multi checkbox options
+    'options'  => array(
+        '1' => 'Opt 1',
+        '2' => 'Opt 2',
+        '3' => 'Opt 3'
+    ),
+    //See how default has changed? you also don't need to specify opts that are 0.
+    'default' => array(
+        '1' => '1', 
+        '2' => '0', 
+        '3' => '0'
+    )
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-switch-checkbox-multi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

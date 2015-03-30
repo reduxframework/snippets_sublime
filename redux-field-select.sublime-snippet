@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'       => '$1',
+    'type'     => 'select',
+    'title'    => __('$2', 'redux-framework-demo'), 
+    'subtitle' => __('', 'redux-framework-demo'),
+    'desc'     => __('', 'redux-framework-demo'),
+    'options'  => array(
+        '1' => 'Opt 1',
+    ),
+    'default'  => '1',
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

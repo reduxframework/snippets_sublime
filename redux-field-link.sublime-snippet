@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'       => '$1',
+    'type'     => 'link_color',
+    'title'    => __('$2', 'redux-framework-demo'),
+    'default'  => array(
+        'regular'  => '#1e73be', // blue
+        'hover'    => '#dd3333', // red
+        'active'   => '#8224e3'  // purple
+    )
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-link</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

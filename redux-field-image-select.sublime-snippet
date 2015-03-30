@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'       => '$1',
+    'type'     => 'image_select',
+    'title'    => __('$2', 'redux-framework-demo'), 
+    'subtitle' => __('', 'redux-framework-demo'),
+    'options'  => array(
+        '$3'      => array(
+            'alt'   => '$4', 
+            'img'   => ReduxFramework::$_url.'assets/img/1col.png'
+        )
+    ),
+    'default' => '$3'
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-image-select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+array(
+    'id'        => '$1',
+    'type'      => 'slider',
+    'title'     => __('$2', 'redux-framework-demo'),
+    'subtitle'  => __('', 'redux-framework-demo'),
+    'desc'      => __('', 'redux-framework-demo'),
+    "default"   => $3,
+    "min"       => $4,
+    "step"      => $5,
+    "max"       => $6,
+    'display_value' => 'label'
+),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>redux-field-slider</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
