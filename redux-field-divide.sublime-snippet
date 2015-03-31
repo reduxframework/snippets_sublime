@@ -10,4 +10,5 @@ array(
 	<tabTrigger>redux-field-divide</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Divide field declaration.</description>
 </snippet>

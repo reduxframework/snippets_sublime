@@ -15,4 +15,5 @@ array(
 	<tabTrigger>redux-field-background</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Background field declaration.</description>
 </snippet>

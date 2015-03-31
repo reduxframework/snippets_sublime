@@ -18,4 +18,5 @@ array(
 	<tabTrigger>redux-field-color-rgba</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Color RGBA field declaration.</description>
 </snippet>

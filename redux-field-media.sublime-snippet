@@ -16,4 +16,5 @@ array(
 	<tabTrigger>redux-field-media</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>Media field declaration.</description>
 </snippet>
