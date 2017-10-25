@@ -11,6 +11,6 @@ array(
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>redux-field-switch</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.js</scope>
 	<description>Switch field declaration.</description>
 </snippet>
